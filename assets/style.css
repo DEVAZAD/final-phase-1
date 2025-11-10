@@ -68,6 +68,7 @@ body {
 /* Opportunities Section */
 .opportunities-section {
   background-color: #f1f8ff;
+  padding: 20px;
 }
 
 .opportunities-container {
@@ -137,11 +138,15 @@ body {
   margin-bottom: 30px;
   color: var(--dark);
 }
+.mission-content {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
 @media (min-width: 992px) {
   .mission-content {
     width: 50%;
     padding: 20px;
-    text-align: left;
   }
 }
 
@@ -162,7 +167,7 @@ body {
   max-width: 800px;
   height: 400px;
   margin: 0 auto;
-  padding: 20px auto;
+  padding: 20px;
   background: linear-gradient(135deg, var(--primary), var(--secondary));
   border-radius: 8px;
   display: flex;
@@ -291,10 +296,23 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-  body {
-    font-size: 14px;
-  }
   .container {
     padding: 0 15px;
+  }
+  .news-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p,
+  a,
+  li {
+    font-size: 1rem;
   }
 }

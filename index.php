@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABCEL - Enriching Lives</title>
-    <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/headerFooter.css">
     <link rel="stylesheet" href="assets/slider.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <!-- Header Section -->

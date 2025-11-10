@@ -62,9 +62,9 @@ aspirational class, and more specifically, for our focus groups. <a href="#" cla
 
     <!-- Mission Section -->
     <section class="mission-section section-padding">
+        <h1>One connection Can turn into many. Creating a network of opportunities</h1>
         <div class="flex">
-            <div>
-                <h1>One connection Can turn into many. Creating a network of opportunities</h1>
+            <div class="mission-content">
                 <p>Sharing our thoughts, emotions, and inspirations creates an empathetic space to offer visibility to one another. It supports identifying and exploring new opportunities for collective good.</p>
                 <p>When we share a nugget like a childhood story or perhaps an industry learning, we take the first step towards driving a movement.</p>
                 <p>A movement which transforms the means to a fulfilling day's end, the sparkplug of life - the small joys.</p>

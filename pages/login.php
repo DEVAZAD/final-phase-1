@@ -130,39 +130,42 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <?php include('../includes/header.php'); ?>
-    <div class="container2">
-        <h2>Login to Your Account</h2>
+    <section class="section-padding">
 
-        <?php if (isset($errors['general'])): ?>
-            <div class="error"><?php echo $errors['general']; ?></div>
-        <?php endif; ?>
 
-        <form method="POST" action="">
-            <div class="form-group">
-                <label for="username">Username or Email</label>
-                <input type="text" id="username" name="username" 
-                       value="<?php echo htmlspecialchars($username ?? ''); ?>" 
-                       required>
-                <?php if (isset($errors['username'])): ?>
-                    <span class="error"><?php echo $errors['username']; ?></span>
+        <div class="container2">
+            <h2>Login to Your Account</h2>
+            
+            <?php if (isset($errors['general'])): ?>
+                <div class="error"><?php echo $errors['general']; ?></div>
                 <?php endif; ?>
-            </div>
-
-            <div class="form-group">
-                <label for="password">Password</label>
+                
+                <form method="POST" action="">
+                    <div class="form-group">
+                        <label for="username">Username or Email</label>
+                        <input type="text" id="username" name="username" 
+                        value="<?php echo htmlspecialchars($username ?? ''); ?>" 
+                        required>
+                        <?php if (isset($errors['username'])): ?>
+                            <span class="error"><?php echo $errors['username']; ?></span>
+                            <?php endif; ?>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
                 <?php if (isset($errors['password'])): ?>
                     <span class="error"><?php echo $errors['password']; ?></span>
-                <?php endif; ?>
+                    <?php endif; ?>
             </div>
-
+            
             <button type="submit" class="btn">Login</button>
         </form>
-
+        
         <div class="signup-link">
             Don't have an account? <a href="signup.php">Sign up here</a>
         </div>
-    </div>
+    </section>
     <?php include('../includes/footer.php'); ?>
 </body>
 </html>

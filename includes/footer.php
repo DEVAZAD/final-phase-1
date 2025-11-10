@@ -1,5 +1,5 @@
 <footer class="footer">
-        <div class="content">
+        <div class="bread-slices">
             <div class="flex footer-container">
                 <div class="footer-column">
                     <h3>ABCEL</h3>

@@ -12,7 +12,7 @@
     <!-- Header Section -->
     <?php include 'includes/header.php' ?>
     
-    <div class="content">
+    <div class="container">
     <!-- Slider Section -->
     <?php include 'includes/slider.php'?>
 
@@ -45,7 +45,7 @@ aspirational class, and more specifically, for our focus groups. <a href="#" cla
 
     <!-- Opportunities Section -->
     <section class="opportunities-section section-padding">
-        <div class="container">
+        <div class="container2">
             <div class="flex opportunities-container">
                 <div class="opportunities-content">
                     <h1>REALM OF CONTEMPORARY OPPORTUNITIES</h1>
@@ -79,7 +79,7 @@ aspirational class, and more specifically, for our focus groups. <a href="#" cla
 
     <!-- Focus Section -->
     <section class="focus-section section-padding">
-        <div class="container">
+        <div class="container2">
             <h1>Our Focus Areas for Community Development</h1>
             <p>We target specific areas where intervention can create the most significant and lasting impact.</p>
             <div class="focus-image">
@@ -90,7 +90,7 @@ aspirational class, and more specifically, for our focus groups. <a href="#" cla
 
     <!-- Join Movement Section -->
     <section class="join-section section-padding">
-        <div class="container">
+        <div class="container2">
             <h1 class="section-title">Join The Movement</h1>
             <h2 class="section-subtitle">Chairman's Message</h2>
             <div class="flex join-container">
@@ -108,7 +108,7 @@ aspirational class, and more specifically, for our focus groups. <a href="#" cla
 
     <!-- What's New Section -->
     <section class="news-section section-padding">
-        <div class="container">
+        <div class="container2">
             <h1 class="section-title">What's New?</h1>
             <div class="flex news-container">
                 <div class="news-card">
